@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+int v1,v2,v3;
 int func(int a, int b) {
 	if (!a) return 0;
 	return a + b;
@@ -50,4 +52,10 @@ f=(int*)malloc(a*sizeof(int));
 for(i=0;i<a+2;i++)
 	scanf("%d", &f[i]);
 return f[a-1];
+}
+
+int main()
+{
+printf("\n Hello");
+return 0;
 }
