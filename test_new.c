@@ -42,6 +42,10 @@ int func3(int a)
 {
 int *f;
 int i;
+int zxc=func1(2);
+i=func2(1,3);
+i=func2(2,3);
+i=func2(3,3);
 f=(int*)malloc(a*sizeof(int));
 for(i=0;i<a+2;i++)
 	scanf("%d", &f[i]);
