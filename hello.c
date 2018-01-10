@@ -1,7 +1,6 @@
 #include <stdio.h>
 int calc(int x, int y)
 {
-	printf("\nModern calc");
         return x+y;
 }
 int main()
