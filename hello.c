@@ -8,6 +8,6 @@ int main()
         printf("Hello World!\n");
         printf("Added new line\n");
         printf("Calc: 1 + 3 + 5= %d\n", calc(1,3)+5);
-        printf("--PASSED--\n");
+        printf("--<PASSED>--\n");
         return 0;
 }
