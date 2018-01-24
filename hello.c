@@ -11,7 +11,7 @@ int minus(int x, int y)
 
 int main()
 {
-        printf("Hello World!\n");
+        printf("*************************\n");
         printf("Added new line\n");
         printf("Calc: 1 + 3 + 5= %d\n", calc(1,3)+5);
 	printf("Try to add new fuction to calc");
